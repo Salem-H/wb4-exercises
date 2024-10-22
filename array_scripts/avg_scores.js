@@ -13,8 +13,8 @@ function getAverage(scores){
 
 let myAverage = getAverage(myScores);
 
-console.log("My average score is: "+ myAverage.toFixed(2))
+console.log("My average score is: ", myAverage.toFixed(2))
 
-let yourAverage = getAverage(yourScores);
+let yourAverage = getAverage([82, 98, 94, 88, 92, 100, 100]);
 
 console.log("My average score is: "+ yourAverage.toFixed(2))
